@@ -23,7 +23,7 @@ CSS = """
 --muted:#8f8e86;--s1:#3987e5;--track:#2b2b28;--chip:#262624}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);
 font-family:"Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP",Meiryo,system-ui,sans-serif;font-size:14px;line-height:1.6}
-main{max-width:1120px;margin:0 auto;padding:20px 16px 48px}
+main{max-width:1120px;margin:0 auto;padding-block:20px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
 header{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:baseline;justify-content:space-between;margin-bottom:16px}
 h1{font-size:20px;margin:0}h2{font-size:15px;margin:0 0 12px}
 .meta{color:var(--text2);font-size:13px}
