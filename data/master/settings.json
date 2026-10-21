@@ -1,0 +1,20 @@
+{
+  "_説明": "採用目標と診断の基準値。目標は計画上の仮定なので、実績を見て変更してよい（変更したら PROJECT_PLAN.md の変更履歴にも書く）。",
+  "deadline": "2027-02-28",
+  "apply_period": {"start": "2026-11-02", "end": "2027-02-14"},
+  "business_targets": {"訪問介護": 4, "放課後等デイサービス": 3, "グループホーム": 3},
+  "funnel_targets": {"応募": 50, "面接実施": 30, "内定": 15, "入社確定": 10},
+  "first_contact_sla_days": 1,
+  "diagnose_thresholds": {
+    "min_impressions_per_week": 300,
+    "min_impressions_for_rate": 300,
+    "ctr_low": 0.02,
+    "min_clicks_for_rate": 20,
+    "apply_rate_low": 0.03,
+    "min_apps_for_rate": 3,
+    "interview_rate_low": 0.5,
+    "decline_rate_high": 0.4,
+    "cost_per_hire_high": 100000
+  },
+  "_基準値の注意": "表示数・クリック率などの基準値は業界の一般的な目安として置いた仮の値（NewValley の実績ではない）。4週分の実績が溜まったら実績の中央値に置き換える。"
+}

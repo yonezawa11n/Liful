@@ -1,0 +1,32 @@
+# 秘密情報（採用係長などのID・パスワード・トークン）
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+storage_state*.json
+cookies*.json
+
+# 応募者データ（個人情報）・操作ログ・バックアップ
+private/
+*.applicants.csv
+applicants_*.csv
+import/
+exports/
+
+# 生成物（レポート・ダッシュボードには集計値が入る。氏名入りのものもあり得る）
+output/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / エディタ
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+node_modules/

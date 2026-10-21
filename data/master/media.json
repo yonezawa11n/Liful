@@ -1,0 +1,18 @@
+{
+  "_説明": "掲載媒体の一覧。status は 未確認 / 連携確認済み / 利用中 / 利用しない。連携確認済みにしてよいのは、求職者側の画面（ログインしていない状態の検索結果）で自社求人が表示されることを確認した時だけ。",
+  "_更新日": "2026-10-21",
+  "media": [
+    {"name": "採用係長", "type": "求人作成・掲載ツール", "cost": "有料プラン（10件枠）", "status": "利用中", "verified": "", "how_to_verify": "社長の管理画面で各求人の公開状態を確認", "note": "公開・停止・有料オプションは社長が操作。API の公開は確認できず"},
+    {"name": "Indeed", "type": "求人検索エンジン", "cost": "無料掲載／有料（クリック課金）", "status": "未確認", "verified": "", "how_to_verify": "ログアウトした状態で jp.indeed.com を「職種名 ＋ 市名」と会社名で検索し、自社求人が出るか確認", "note": "Indeed のクローリング（自動収集）による掲載は2025年6月末で終了と報じられている。現在は直接投稿か、Indeed と正式連携したサービス経由のみ。採用係長が連携先かは管理画面・公式で要確認"},
+    {"name": "求人ボックス", "type": "求人検索エンジン", "cost": "無料掲載／有料", "status": "未確認", "verified": "", "how_to_verify": "ログアウトした状態で求人ボックスを会社名で検索", "note": "採用係長からの連携有無は要確認"},
+    {"name": "スタンバイ", "type": "求人検索エンジン", "cost": "無料掲載／有料", "status": "未確認", "verified": "", "how_to_verify": "スタンバイを会社名で検索", "note": "採用係長からの連携有無は要確認"},
+    {"name": "Googleしごと検索", "type": "検索エンジン", "cost": "無料", "status": "未確認", "verified": "", "how_to_verify": "Google で「訪問介護 求人 町田市」などを検索し、求人枠に自社求人が出るか確認", "note": "求人ページに構造化データがあるかどうかで決まる。採用係長の求人ページが対応しているか要確認"},
+    {"name": "ハローワーク", "type": "公的機関", "cost": "無料", "status": "未確認", "verified": "", "how_to_verify": "ハローワークインターネットサービスで事業所名検索", "note": "既に求人を出しているか社長に確認。出す場合は窓口・オンラインで申込（自動化しない）"},
+    {"name": "公式LINE", "type": "自社", "cost": "無料（配信数による）", "status": "利用中", "verified": "", "how_to_verify": "", "note": "採用サイト・訪問介護LPからの相談窓口（@296dkcwv）"},
+    {"name": "自社採用サイト", "type": "自社", "cost": "無料", "status": "利用中", "verified": "", "how_to_verify": "", "note": "newvalleyhp.com/careers/。エントリーフォームの送信処理に問題の可能性あり（RISKS.md R-09）"},
+    {"name": "Instagram", "type": "SNS", "cost": "無料", "status": "利用中", "verified": "", "how_to_verify": "", "note": "採用アカウント @newvalley_recruit"},
+    {"name": "TikTok", "type": "SNS", "cost": "無料", "status": "未確認", "verified": "", "how_to_verify": "", "note": "2026-09 時点では未開設（LP 制作時の記録）"},
+    {"name": "紹介（スタッフ・知人）", "type": "紹介", "cost": "無料", "status": "利用中", "verified": "", "how_to_verify": "", "note": "紹介制度の有無は要確認"},
+    {"name": "その他", "type": "その他", "cost": "", "status": "利用中", "verified": "", "how_to_verify": "", "note": "電話・直接応募など", "display": false}
+  ]
+}
